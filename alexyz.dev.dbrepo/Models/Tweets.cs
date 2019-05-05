@@ -8,6 +8,7 @@ namespace alexyz.dev.dbrepo.Models
         [Key]
         public int Id { get; set; }
         public string TweetText { get; set; }
+        public string TweetItemId { get; set; }
         public int Likes { get; set; }
         public int Retweets { get; set; }
     }
